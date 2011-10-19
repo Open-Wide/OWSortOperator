@@ -119,23 +119,23 @@ class OWSortOperator extends OWSimpleOperator
     /*!
      * Compare two attributes of ezobject or eznode
      */
-	public function compare_ezobject_attribute($a, $b)
-	{
-		$return = 1
-		if ( $this->is_ezobject_or_eznode( $a ) && $this->is_ezobject_or_eznode( $b ) )
-		{
-			$a = $a->attribute( $attribute_name );
-			$b = $b->attribute( $attribute_name );
-		    if ( $a == $b )
-		    {
-		        $return =  0;
-		    }
-		    else if ( $a < $b )
-		    {
-		        $return =  -1;
-		    }
-		}
-		return $return;
-	}
+    public function compare_ezobject_attribute($a, $b)
+    {
+        $return = 1
+        if ( $this->is_ezobject_or_eznode( $a ) && $this->is_ezobject_or_eznode( $b ) )
+        {
+            $a = $a->attribute( $attribute_name );
+            $b = $b->attribute( $attribute_name );
+            if ( $a == $b )
+            {
+                $return =  0;
+            }
+            else if ( $a < $b )
+            {
+                $return =  -1;
+            }
+        }
+        return $return;
+    }
     
 }
