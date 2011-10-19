@@ -2,7 +2,7 @@
 
 $eZTemplateOperatorArray = array(
      array(
-        'script' => 'extension/owsortoperator/autoloads/owsortoperator.php',
+        'script' => 'extension/OWSortOperator/autoloads/owsortoperator.php',
         'class' => 'OWSortOperator',
         'operator_names' => array(
             'sort' ,
