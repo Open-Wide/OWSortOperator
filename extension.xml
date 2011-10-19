@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<software>
+    <metadata>
+        <name>OWSortOperator</name>
+        <version>1.0</version>
+        <copyright>Copyright (C) 2011 OPEN WIDE</copyright>
+        <license>GNU General Public License v3.0</license>
+        <info_url>http://projects.ez.no/owsortoperator</info_url>
+    </metadata>
+    
+    <dependencies>
+        <requires>
+            <extension name="OWSimpleExtension" />
+        </requires>
+     </dependencies>
+    
+</software>
