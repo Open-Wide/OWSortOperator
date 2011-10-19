@@ -9,6 +9,7 @@ Due to the PHP function using the input array as result, it cannot be used via P
 PHP Classic Sort Functions
 ---------------------
 You can use the PHP classic functions :
+
 * sort : Sort an array and maintain index association
 * rsort : Sort an array in reverse order and maintain index association
 * asort : Sort an array and maintain index association
